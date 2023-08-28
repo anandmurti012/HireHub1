@@ -61,7 +61,7 @@ app.use((req, res, next) => {
 });
 
 app.get('/', (req, res) => {
-	res.send('working');
+	res.send('working_properly');
 });
 
 const jobRoutes = require('./routes/jobs');
